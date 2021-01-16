@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+	<title>카카오계정</title>
+</head>
+<body>
+	<div>
+		<h1>kakao</h1>
+	</div>
+	<div>
+	<h1>카카오계정 정보를 입력해주세요</h1>
+	<label for="email">카카오계정 이메일</label><br>
+	<input type="text" name="email" value="아아디입력"><br>
+		<ul>
+			<li>입력한 카카오메일로 카카오계정에 로그인할 수 있습니다.</li>
+			<li>한번 만든 카카오메일은 변경할 수 없으니, 오타가 없도록 신중히 확인해주세요.</li>
+			<li>생성한 카카오메일로 카카오계정과 관련한 알림을 받아볼 수 있습니다.</li>
+		</ul>
+	</div>
+	<div>
+	<label for="password">비밀번호</label><br>
+	<input type="password" name="password" value="비밀번호(8~32자리)"><br>
+	<input type="password" name="passwordcheck" value="비밀번호재입력"><br>
+	<label for="nickname">닉네임</label><br>
+	<input type="text" name="nickname" value="닉네임을 입력해주세요."><br>
+	<label for="phone">전화번호</label><br>
+		<select>
+			<option>+82</option>
+			<option>+1</option>
+			<option>+45</option>
+		</select>
+	<input type="text" name="phone" value="전화번호">
+	<input type="submit" name="code" value="인증번호 전송">
+	</div>
+	<div>
+	<label for="birth">생일/성별</label><br>
+		<select>
+			<option>연도</option>
+			<option>1993</option>
+			<option>2021</option>
+		</select>
+		<select>
+			<option>월</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>	
+		</select>
+		<select>
+			<option>일</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>	
+		</select>
+		<input type="checkbox" name="lunar" value="음력">
+		<label for="lunar">음력</label><br>	
+		<input type="checkbox" name="nochoice" value="선택안함">
+		<label for="nochoice">선택안함</label>	
+		<input type="checkbox" name="female" value="여성">
+		<label for="femal">여성</label>	
+		<input type="checkbox" name="male" value="남성">
+		<label for="male">남성</label><br>
+		<input type="submit" name="next" value="다음">
+	</div>
+</body>
